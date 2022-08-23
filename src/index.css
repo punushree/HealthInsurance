@@ -1,0 +1,201 @@
+/* @tailwind base;
+@tailwind components;
+@tailwind utilities; */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+li {
+  list-style-type: none;
+}
+
+body {
+  font-size: 16px;
+  color: #333;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  padding: 1rem;
+}
+
+/* bulding class */
+.textCenter {
+  text-align: center;
+}
+
+/* Navbar */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem 1rem;
+  background-color: #333;
+  color: antiquewhite;
+  font-size: 1.25rem;
+  border-radius: 3px;
+}
+.navbarRight {
+  display: flex;
+}
+.link {
+  color: #fff;
+  text-decoration: none;
+}
+
+.link:not(:last-child) {
+  margin-right: 1.5rem;
+}
+/* .navbarRight li:not(:first-child){
+  margin-left: 2rem;
+} */
+
+/* Header */
+.header {
+  height: 90vh;
+  background-image: url(./assests/happyFamily.jpg);
+  background-size: cover;
+  background-position: top;
+  position: relative;
+}
+.headerText {
+  position: absolute;
+    top: 45%;
+    left: 50%;
+}
+.headingPrimary {
+  text-transform: uppercase;
+  /* transform: translate(-50%, -50%); */
+  line-height: 4rem;
+  color:aquamarine;
+  align-items: center;
+}
+.headingPrimaryMain {
+  display: block;
+  font-size: 3.5rem;
+  font-weight: 700;
+    transform: translate(-50%, -50%);
+}
+.headingPrimarySub {
+  display: block;
+  font-size: 2.5rem;
+    transform: translate(-40%, -50%);
+}
+
+/* Plan */
+.plan {
+  background-image: linear-gradient(to right bottom, rgba(223, 124, 124, 0.5), rgba(147, 200, 222, 0.5));
+  text-align: center;
+  padding: 2rem 0;
+}
+.headingSecondary {
+  font-size: 2rem;
+  font-weight: 700;
+}
+
+.planText {
+  margin-top: 1rem;
+  font-size: 1.5rem;
+  font-size: 400;
+} 
+
+.planCard {
+  display: flex;
+  padding: 2rem;
+  justify-content:center;
+  flex-wrap: wrap;
+}
+
+.planBox {
+  max-width: 15rem;
+  border-radius: 5px;
+  margin: 1.5rem;
+  padding: 2rem 2rem;
+  border: 1px black solid;
+  display: inline-block;
+  overflow: hidden;
+  /* margin-right: 2rem; */
+}
+
+.planBox:not(:last-child){
+  margin-right: 3rem;
+}
+
+.headingTertiary {
+  font-size: 1.6rem;
+  text-transform: uppercase;
+}
+.planBoxText {
+  font-size: 1.2rem;
+}
+.price {
+  margin-top: 1rem;
+  font-weight: 700;
+}
+
+/* Plan Page */
+.planPage {
+  padding: 1rem;
+  background-color: rgba(196, 192, 188, 0.4);
+  padding-top: 2rem;
+  padding-bottom: 4rem;
+}
+.healthInsurance {
+  background-image: linear-gradient(to right bottom, rgba(223, 124, 124, 0.5), rgba(147, 200, 222, 0.5));
+  padding: 1rem;
+  display: flex;
+  /* flex-wrap: wrap; */
+  padding: 2.5rem 1rem;
+  position: relative;
+}
+.healthInsurance:not(:last-child){
+  margin-bottom: 2rem;
+}
+
+.healthInsuranceBox {
+  /* max-width: 55%; */
+  vertical-align: middle;
+  /* display: inline-block; */
+  margin: auto 2rem;
+  /* flex-wrap: wrap; */
+}
+.healthInsuranceText {
+  margin-top: 1.5rem;
+}
+
+.imageContainer {
+  max-width: 50%;
+  display: inline-block;
+  
+}
+
+.image {
+  height: 15rem;
+  display: inline-block;
+  box-shadow: 0.4rem 1rem 2rem rgba(0, 0, 0, 0.5);
+}
+
+/* Hospital list */
+.hospital {
+  background-color: rgba(237, 214, 214, 0.5);
+  padding: 2rem 2.5rem;
+}
+.hospitalList {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 2rem;
+  /* flex-direction: column; */
+  /* background-color: red; */
+  /* display: inline-block; */
+  /* display: flex; */
+  /* justify-content: center; */
+}
+.hospitalCard {
+  display: inline-block;
+  background-color: red;
+  border: 1px black solid;
+  border-radius: 4px;
+  margin: 1rem;
+  padding: 1rem 1.5rem;
+  display: flex;
+}
