@@ -1,0 +1,40 @@
+.header {
+  height: 90vh;
+  background-image: url(../../assests/happyFamily.jpg);
+  background-size: cover;
+  background-position: top;
+  position: relative;
+}
+
+.headerText {
+  position: absolute;
+  top: 45%;
+  left: 50%;
+}
+
+.headingPrimary {
+  text-transform: uppercase;
+  /* transform: translate(-50%, -50%); */
+  line-height: 4rem;
+  color: aquamarine;
+  align-items: center;
+}
+
+.headingPrimaryMain {
+  display: block;
+  font-size: 3.5rem;
+  font-weight: 700;
+  transform: translate(-50%, -50%);
+}
+
+.headingPrimarySub {
+  display: block;
+  font-size: 2.5rem;
+  transform: translate(-40%, -50%);
+}
+
+ /* @media only screen and (max-width : 590px){
+  .header {
+    font-size: 5px;
+  }
+ } */

@@ -1,0 +1,55 @@
+.planPage {
+  padding: 1rem;
+  background-color: rgba(196, 192, 188, 0.4);
+  padding-top: 2rem;
+  padding-bottom: 4rem;
+}
+
+.healthInsurance {
+  background-image: linear-gradient(to right bottom, rgba(223, 124, 124, 0.5), rgba(147, 200, 222, 0.5));
+  padding: 1rem;
+  display: flex;
+  /* flex-wrap: wrap; */
+  padding: 2.5rem 1rem;
+  position: relative;
+}
+
+.healthInsurance:not(:last-child) {
+  margin-bottom: 2rem;
+}
+
+.healthInsuranceBox {
+  /* max-width: 55%; */
+  vertical-align: middle;
+  /* display: inline-block; */
+  margin: auto 2rem;
+  /* flex-wrap: wrap; */
+}
+
+.healthInsuranceText {
+  margin-top: 1.5rem;
+}
+
+.imageContainer {
+  /* max-width: 40%; */
+  /* display: inline-block; */
+  margin-top: 1.5rem;
+
+}
+
+.image {
+  height: 15rem;
+  display: inline-block;
+  box-shadow: 0.4rem 1rem 2rem rgba(0, 0, 0, 0.5);
+}
+
+@media  only screen and (max-width : 845px){
+  .healthInsurance {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .image {
+    height: 12rem;}
+}

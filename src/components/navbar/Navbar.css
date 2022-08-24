@@ -1,0 +1,162 @@
+/* .navbar {
+  display: flex;
+  justify-content: space-between;
+  padding: 1.25rem 1rem;
+  background-color: #333;
+  color: antiquewhite;
+  font-size: 1.25rem;
+  border-radius: 3px;
+}
+
+.navbar button {
+  display: none;
+}
+
+.navbarRight {
+  display: flex;
+}
+
+.navbarRight #hidden {
+  position: absolute;
+  height: 250px;
+  max-height: 250px;
+  background-color: #333;
+  z-index: 1;
+  top: 50px;
+  left : 0;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.link {
+  color: #fff;
+  text-decoration: none;
+}
+
+.link:not(:last-child) {
+  margin-right: 1.5rem;
+}
+
+/* .navbarRight li:not(:first-child){
+  margin-left: 2rem;
+} */
+/*
+@media only screen and (max-width : 580px) {
+  .navbarRight {
+    display: none;
+  }
+  #hidden {
+    display: flex;
+  }
+
+  .navbar button {
+    display: flex;
+  }
+} */
+
+.navbar {
+    display: flex;
+    justify-content:space-between ;
+    padding: 1.25rem 1rem;
+    background-color: #333;
+    color: rgb(242, 224, 153) !important;
+    font-size: 1.25rem;
+    border-radius: 3px;
+    height: 10vh;
+    position: relative;
+    align-items: center;
+}
+
+.navbar .navbarLeft {
+  align-items: center;
+  justify-content: center;
+  padding-left: 2rem;
+}
+
+.navbar .navbarRight {
+  display: flex;
+  
+}
+
+
+.links a:not(:last-child) {
+  margin-right: 1.5rem;
+}
+.navbarRight button {
+  padding: .4rem;
+  display: none;
+  align-items: center;
+  font-weight: bold;
+}
+
+.navbarRight #hidden {
+  display: none;
+}
+/* .navbarRight #hidden {
+  background-color: #333;
+  height: 250px;
+  max-height: 25rem;
+  z-index: 1;
+  position: absolute;
+  left: ;
+} */
+
+
+
+
+
+@media only screen and (max-width : 590px) {
+  .navbarRight .links {
+    display: none;
+  }
+
+  .navbar .navbarRight #hidden {
+    display: none;
+    position: absolute;
+    left: 0px;
+    top: 10vh;
+    height: 250px;
+    max-height: 250px;
+    z-index: 2;
+    width: 100%;
+    background-color: #333;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  #hidden a {
+    margin: 5px;
+    font-size: 1.5rem;
+  }
+
+  .navbarRight button {
+    display: flex;
+  }
+}
+
+/*
+.navbarRight #hidden {
+  position: absolute;
+  left: 0px;
+  top: 80px;
+  height: 250px;
+  max-height: 250px;
+  width: 100%;
+  background-color: #333;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#hidden a{
+ margin : 5px;
+ font-size: 1.5rem;
+}
+
+} */
+
+
+
+

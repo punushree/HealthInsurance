@@ -1,5 +1,6 @@
 import React from 'react';
 import PlanCard from './PlanCard';
+import './Plan.css';
 
 const Plan = () => {
   const planDetail = [

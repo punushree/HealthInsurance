@@ -1,6 +1,7 @@
-import insurance from '../assests/vaccine.jpg';
-import plan from '../assests/plan.jpg';
-import oldFamily from '../assests/oldFamily.jpg';
+import './Plan.css';
+import insurance from '../../assests/vaccine.jpg';
+import plan from '../../assests/plan.jpg';
+import oldFamily from '../../assests/oldFamily.jpg';
 
 const Plan = () => {
   return (
