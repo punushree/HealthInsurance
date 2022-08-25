@@ -1,48 +1,31 @@
 # Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
-
-## Available Scripts
-
-In the project directory, you can run:
+This project was bootstrapped with [Create React App]. This is a health insurance project build with react and pure css. 
 
 ### `npm start`
 
 Runs the app in the development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+The page will reload when you make changes.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
 
-### `npm test`
+# Project Demo Screenshot
+![healthInsuranceWebHome](https://user-images.githubusercontent.com/82098476/186575614-6fae69d0-346d-4034-be51-1467be03c0ca.png)
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+![healthInsurancePlan](https://user-images.githubusercontent.com/82098476/186574930-2e914210-6c26-4806-a170-f907f7d86bc6.png)
 
-### `npm run build`
+![healthPlanMobile](https://user-images.githubusercontent.com/82098476/186574937-b64908e9-05c5-4c15-8a83-f37bc6fb98bf.png)
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+![image](https://user-images.githubusercontent.com/82098476/186574968-a48d3e63-63ab-45df-b607-2f2b1861e347.png)
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+![image](https://user-images.githubusercontent.com/82098476/186574981-abf2c5d4-e614-45c0-854c-c29a18541216.png)
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+![image](https://user-images.githubusercontent.com/82098476/186574994-a48b0e8b-014b-43bf-a963-38951bde5498.png)
 
-### `npm run eject`
+![image](https://user-images.githubusercontent.com/82098476/186574998-6a96c097-aa0b-42dd-82f4-b3926d73a9c8.png)
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
 # Project Demo Video
 
-
-
 https://user-images.githubusercontent.com/82098476/186459711-4ccb2c1d-5372-4bae-880d-9d2e5b16537d.mp4
-
 
