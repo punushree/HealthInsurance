@@ -1,4 +1,4 @@
-import React from 'react';
+import './Hospital.css';
 
 const HospitalList = ({ hospital: { name, place } }) => {
   return (

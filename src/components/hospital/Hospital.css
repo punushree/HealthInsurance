@@ -1,0 +1,35 @@
+.hospital {
+  background-color: rgba(237, 214, 214, 0.5);
+  padding: 2rem 2.5rem;
+}
+
+.hospitalList {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 2rem;
+  /* flex-direction: column; */
+  /* background-color: red; */
+  /* display: inline-block; */
+  /* display: flex; */
+  justify-content:space-between;
+  text-align: center;
+}
+
+.hospitalCard {
+  display: inline-block;
+  background-color: rgb(208, 159, 159, 0.5);
+  border: 1px black solid;
+  border-radius: 4px;
+  margin: 1rem;
+  padding: 1rem 1.5rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+@media only screen and (max-width : 590px) {
+  .hospitalList {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+}

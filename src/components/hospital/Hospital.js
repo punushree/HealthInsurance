@@ -1,5 +1,6 @@
 import React from 'react';
 import HospitalList from './HospitalList';
+import './Hospital.css';
 
 const Hospital = () => {
   const hospitalList = [

@@ -1,0 +1,67 @@
+
+
+.plan {
+  background-image: linear-gradient(to right bottom, rgba(223, 124, 124, 0.5), rgba(147, 200, 222, 0.5));
+  text-align: center;
+  padding: 2rem 0;
+}
+
+
+.planText {
+  margin-top: 1rem;
+  font-size: 1.5rem;
+  font-size: 400;
+}
+
+.planCard {
+  display: flex;
+  padding: 2rem;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.planBox {
+  max-width: 15rem;
+  border-radius: 5px;
+  margin: 1.5rem;
+  padding: 2rem 2rem;
+  border: 1px black solid;
+  display: inline-block;
+  overflow: hidden;
+  /* margin-right: 2rem; */
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.5);
+
+}
+
+.planBox:not(:last-child) {
+  margin-right: 3rem;
+}
+
+.planBox:hover {
+  background-color: rgba(147, 200, 222, 0.2);
+  transform: translateY(-3px);
+}
+
+.planBoxText {
+  font-size: 1.2rem;
+}
+
+.price {
+  margin-top: 1rem;
+  font-weight: 700;
+}
+
+.plan button {
+  padding: 0.5rem 1rem;
+  border-radius: 100px;
+  margin-top: 1rem;
+  font-weight: bold;
+  background-color: rgba(225, 135, 135, 0.1);
+  transition: all 0.2s;
+}
+
+.plan button:active{
+  transform: translateY(2px);
+  background-color: rgba(254, 238, 149, 0.2);
+  color: #fff;
+}
