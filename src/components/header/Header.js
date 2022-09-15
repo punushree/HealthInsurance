@@ -7,7 +7,7 @@ const Header = () => {
       <div className='header'>
         <div className='headerText'>
           <h1 className='headingPrimary'>
-            <span className='headingPrimaryMain'>Your health Insurance</span>
+            <span className='headingPrimaryMain'>Bugendaitech health Insurance</span>
             <span className='headingPrimarySub'>for you and your family</span>
           </h1>
         </div>
